@@ -7,6 +7,7 @@
 html,body{
     height: 100%;
     width: 100%;
+    background-color:rgb(187, 187, 230);
 }
 
 #navbar{
@@ -16,6 +17,7 @@ html,body{
     flex-direction: row;
     justify-content: space-between;
 }
+
 
 .main_logo{
     color: white;
@@ -54,6 +56,7 @@ html,body{
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border: none;
+    width: 100%;
     background-color: rgb(218, 217, 217);
     width: 70px;
 }
@@ -136,6 +139,88 @@ html,body{
 .opt:hover{
     border: 1px solid white;
 }
+
+#banner{
+    flex-direction: row;
+    display: flex;
+}
+.banner1{
+    width: 1330px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+
+.next{
+    height: 60px;
+    width: 40px;
+    font-size: 30px;
+    position: absolute;
+    top: 300px;
+    right: 0px;
+}
+
+
+#boxes{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.head{
+    padding: 10px 10px;
+}
+.box{
+    width: 330px;
+    height: 400px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+}
+.box:hover{
+    border: 2px solid black;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 10px;
+
+}
+
+.img{
+    height: 340px;
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 12px;
+    
+
+
+}
+
+
+
+
+
+
+
+#about{
+    background-color:  rgb(7, 7, 36);
+    height: 400px;
+    padding: 20px;
+}
+.about_text{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+
+
 
 
 
