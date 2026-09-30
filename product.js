@@ -1,3 +1,4 @@
+// take value of category through anchor tags of index.html
 const params = new URLSearchParams(window.location.search);
 const category = params.get("category");
 
