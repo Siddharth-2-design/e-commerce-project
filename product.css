@@ -152,7 +152,7 @@ html,body{
 }
 .box{
     width: 330px;
-    height: 400px;
+    height: 380px;
     border-radius: 10px;
     border: 2px solid transparent;
     display: flex;
@@ -192,5 +192,17 @@ html,body{
     flex-direction: column;
 }
 
+.block_heading{
+    color: black;
+    font-size: 25px;
+    padding-left: 20px;
+    
+
+}
+.block_price{
+    color: black;
+    font-size:15px;
+    padding-left: 20px;
+}
 
 
