@@ -313,8 +313,6 @@ const products = [
 ];
 const boxes = document.querySelectorAll(".box");
 
-
-
 function productsrc(category){
     let i=0;
     for(let product of products){
@@ -323,6 +321,7 @@ function productsrc(category){
             block.src = product.src;
             block.classList.add("block");
             boxes[i].appendChild(block);
+
             
 
             let block_heading = document.createElement("b");
@@ -335,11 +334,24 @@ function productsrc(category){
             block_price.innerText = product.price;
             block_price.classList.add("block_price");
             boxes[i].appendChild(block_price);
-            i++;
+
+            
+            let add_button = document.createElement("button");
+            add_button.innerText = "Add +";
+            add_button.classList.add("add_button");
+            boxes[i].appendChild(add_button);
             
 
-        }
+            let a = 1;
+            add_button.addEventListener("click",() =>{
+                add_button.innerText = `Add: ${a}`;
+                localStorage.setItem(product.name,JSON.stringify(product.name));
+                a++;
+
+            })            
+            i++;
             
+        }
     }
 }
 
