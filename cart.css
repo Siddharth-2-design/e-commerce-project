@@ -95,10 +95,9 @@ html,body{
 .cart_div{
     background-color: white;
     width: 600px;
-    height: 500px;
+    height: auto;
     border-radius: 10px;
     padding: 10px;
-
 
 }
 .heading_text{
@@ -112,5 +111,48 @@ html,body{
     color: white;
 
 
+}
+
+.product_div{
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 580px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-top: 10px;
+    gap: 50px;
+}
+
+.product_image{
+    height: 80px;
+    border-radius: 5px;
+    width: 100px;
+    object-fit: cover;
+    
+}
+.product_name{
+    color: black;
+}
+.product_price{
+    color: black; 
+}
+.product_remove{
+    border-radius: 20px;
+    background-color: rgb(228, 34, 34);
+    border: 2px solid transparent;
+    height: 30px;
+    margin-left:30px ;
+    color: white;
+    font-size: 15px;
+    width: 100px;
+    gap: 30px;
+    cursor: pointer;
+
+}
+
+.product_remove:hover{
+    border:2px solid black ;
 }
 
