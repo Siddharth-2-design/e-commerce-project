@@ -10,7 +10,6 @@ html,body{
     background-color:rgb(187, 187, 230);
 }
 
-
 #navbar{
     background-color: rgb(7, 7, 36);
     padding: 10px 20px;
@@ -20,32 +19,13 @@ html,body{
 }
 
 
+
 .main_logo{
     color: white;
     text-decoration: none;
     font-size: larger;
     display: flex;
     align-items: center;
-}
-.location_div{
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-}
-.deliver{
-    color: rgb(189, 187, 187);
-    font-size: 12px;
-}
-.location{
-    display: flex;
-    flex-direction: row;
-}
-.location_logo{
-    height: 20px;
-}
-.updatelocation{
-    font-size: 15px;
-    color: white;
 }
 
 .search_bar{
@@ -57,7 +37,6 @@ html,body{
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border: none;
-    width: 100%;
     background-color: rgb(218, 217, 217);
     width: 70px;
 }
@@ -83,39 +62,6 @@ html,body{
 .search_logo{
     height: 20px;
 }
-.lang_div{
-    display: flex;
-    align-items: center;
-
-}
-.india_logo{
-    height: 15px;
-}
-.lang{
-    width: 37px;
-    border: none;
-    margin-left: 2px;
-
-}
-
-.sign_div{
-    display: flex;
-    align-items: center;
-}
-.sign_in{
-    text-decoration: none;
-    color: white;
-}
-
-.return_div{
-    display: flex;
-    align-items: center;
-}
-.return{
-    color: white;
-    font-size: small;
-}
-
 .cart{
     display: flex;
     align-items: center;
@@ -123,6 +69,7 @@ html,body{
 .cart_logo{
     height: 30px;
 }
+
 
 #category{
     background-color: rgba(1, 1, 43, 0.863);
@@ -147,12 +94,10 @@ html,body{
     flex-direction: column;
 }
 
-.head{
-    padding: 10px 10px;
-}
+
 .box{
     width: 330px;
-    height: 380px;
+    height: 430px;
     border-radius: 10px;
     border: 2px solid transparent;
     display: flex;
@@ -167,7 +112,7 @@ html,body{
     display: flex;
     flex-direction: row;
     padding: 10px;
-    gap: 10px;
+    gap: 5px;
 
 }
 
@@ -180,7 +125,6 @@ html,body{
 
 
 }
-
 
 .block{
     height: 300px;
@@ -204,5 +148,25 @@ html,body{
     font-size:15px;
     padding-left: 20px;
 }
+
+.add_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 80px;
+    color: white;
+    background-color: rgb(219, 18, 18);
+    border-radius: 20px;
+    border: 2px solid transparent;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.add_button:hover{
+    border: 2px solid black;
+}
+
 
 
